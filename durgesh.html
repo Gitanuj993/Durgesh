@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Durgesh Tanwar | Public Profile</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body{
+      background: linear-gradient(135deg,#0f172a,#1e293b,#334155);
+      min-height:100vh;
+      color:white;
+      overflow-x:hidden;
+    }
+
+    /* Navbar */
+    .navbar{
+      width:100%;
+      height:75px;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      padding:0 50px;
+      background:rgba(255,255,255,0.08);
+      backdrop-filter: blur(10px);
+      border-bottom:1px solid rgba(255,255,255,0.1);
+      position:sticky;
+      top:0;
+      z-index:1000;
+    }
+
+    .logo{
+      font-size:28px;
+      font-weight:bold;
+      letter-spacing:1px;
+      color:#38bdf8;
+    }
+
+    .nav-links{
+      display:flex;
+      gap:25px;
+    }
+
+    .nav-links a{
+      color:white;
+      text-decoration:none;
+      transition:0.3s;
+      font-size:15px;
+    }
+
+    .nav-links a:hover{
+      color:#38bdf8;
+    }
+
+    /* Main Section */
+    .main-container{
+      width:100%;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      padding:60px 20px;
+    }
+
+    .profile-card{
+      width:900px;
+      min-height:500px;
+      background:rgba(255,255,255,0.08);
+      border:1px solid rgba(255,255,255,0.12);
+      backdrop-filter:blur(12px);
+      border-radius:30px;
+      padding:40px;
+      position:relative;
+      overflow:hidden;
+      box-shadow:0 10px 40px rgba(0,0,0,0.4);
+    }
+
+    /* Decorative background circles */
+    .profile-card::before,
+    .profile-card::after{
+      content:"";
+      position:absolute;
+      border-radius:50%;
+      background:rgba(56,189,248,0.15);
+      z-index:0;
+    }
+
+    .profile-card::before{
+      width:250px;
+      height:250px;
+      top:-70px;
+      left:-70px;
+    }
+
+    .profile-card::after{
+      width:300px;
+      height:300px;
+      bottom:-120px;
+      right:-100px;
+    }
+
+    .content{
+      position:relative;
+      z-index:1;
+      display:flex;
+      flex-wrap:wrap;
+      align-items:center;
+      justify-content:center;
+      gap:50px;
+    }
+
+    /* Ovule Profile */
+    .profile-photo{
+      width:220px;
+      height:300px;
+      border-radius:50% / 40%;
+      overflow:hidden;
+      border:5px solid rgba(255,255,255,0.3);
+      box-shadow:0 8px 20px rgba(0,0,0,0.4);
+      transition:0.4s;
+    }
+
+    .profile-photo:hover{
+      transform:scale(1.03);
+    }
+
+    .profile-photo img{
+      width:100%;
+      height:100%;
+      object-fit:cover;
+    }
+
+    /* Bio Section */
+    .bio-section{
+      flex:1;
+      min-width:280px;
+    }
+
+    .bio-section h1{
+      font-size:42px;
+      margin-bottom:15px;
+      color:#38bdf8;
+    }
+
+    .bio-section h3{
+      font-weight:normal;
+      margin-bottom:20px;
+      color:#cbd5e1;
+    }
+
+    .bio-section p{
+      line-height:1.8;
+      color:#e2e8f0;
+      margin-bottom:25px;
+    }
+
+    /* Follow Section */
+    .follow-section{
+      margin-top:15px;
+    }
+
+    .follow-section h2{
+      margin-bottom:15px;
+      font-size:24px;
+    }
+
+    .social-links{
+      display:flex;
+      flex-wrap:wrap;
+      gap:15px;
+    }
+
+    .social-links a{
+      text-decoration:none;
+      color:white;
+      padding:12px 18px;
+      border-radius:12px;
+      background:rgba(255,255,255,0.12);
+      transition:0.3s;
+      border:1px solid rgba(255,255,255,0.08);
+    }
+
+    .social-links a:hover{
+      background:#38bdf8;
+      transform:translateY(-3px);
+    }
+
+    /* Responsive */
+    @media(max-width:768px){
+
+      .navbar{
+        padding:0 20px;
+      }
+
+      .logo{
+        font-size:22px;
+      }
+
+      .nav-links{
+        gap:12px;
+      }
+
+      .content{
+        flex-direction:column;
+      }
+
+      .bio-section{
+        text-align:center;
+      }
+
+      .social-links{
+        justify-content:center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">Durgesh Tanwar</div>
+<!--
+    <div class="nav-links">
+      <a href="#">Home</a>
+      <a href="#">Profile</a>
+      <a href="#">Projects</a>
+      <a href="#">Contact</a>
+    </div>
+    -->
+  </nav>
+
+  <!-- Main Profile Section -->
+  <section class="main-container">
+
+    <div class="profile-card">
+
+      <div class="content">
+
+        <!-- Profile Photo -->
+        <div class="profile-photo">
+          <img src="img1778768953249.jpg"
+               alt="Profile Photo">
+        </div>
+
+        <!-- Bio -->
+        <div class="bio-section">
+
+          <h1>Durgesh Tanwar</h1>
+
+          <h3> • Business  • Learner • Worker </h3>
+<div style="font-size : strong ;  ">
+  
+
+          <p>"
+experienced and polished salesman sales manager and on field sells executive ! "
+          </p>
+</div>
+          <!-- Follow Me -->
+          <div class="follow-section">
+
+            <h2>Connect With Me</h2>
+
+            <div class="social-links">
+<!--
+              <a href="https://github.com/" target="_blank">
+                GitHub
+              </a>
+
+              <a href="https://linkedin.com/" target="_blank">
+                LinkedIn
+              </a>
+
+              <a href="https://twitter.com/" target="_blank">
+                Twitter
+              </a>
+
+-->
+              <a href="https://instagram.com/" target="_blank">
+                Instagram
+              </a>
+
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+  <div>
+    <a class="" style="color : black ; text-underline: None;" href="https://github.com/Gitanuj993">Made With ♥️ by Anuj Tanwar</a>
+  </div>
+
+</body>
+  </html>
